@@ -261,3 +261,7 @@ textarea:focus {
 .btn[href] {
   color: $color-black;
 }
+
+.container.posts {
+    grid-template-columns: auto 1fr; // old value was "auto auto" 
+}
